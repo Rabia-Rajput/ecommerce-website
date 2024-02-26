@@ -302,11 +302,14 @@ body {
   align-items: flex-start;
   background-image: url('img/banner/b17.jpg');
   min-width: 580px;
-  height: 50vh;
+  height: 40vh;
   background-size: cover;
   background-position: center;
   padding: 30px;
 
+}
+#sm-banner .banner-box2{
+  background-image: url('img/banner/b10.jpg');
 }
 #sm-banner h4{
   color: white;
