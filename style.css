@@ -519,4 +519,12 @@ footer .copyright {
     background-position: top 30% right 30%;
     
 }
+#feature {
+  justify-content: center;
+   
+}
+#feature .fe-box{
+  margin: 15px 15px;
+}
+
 }
