@@ -610,8 +610,14 @@ footer .copyright {
     
     
   }
+  #newsletter{
+    padding: 40px 20px;
+  }
   #newsletter .form{
     width: 100%;
+  }
+  footer .copyright{
+    text-align: start;
   }
 
 
