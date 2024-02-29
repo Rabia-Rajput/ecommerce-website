@@ -502,6 +502,10 @@ footer .copyright {
   font-weight: 600;
 }
 /* SPRODUCT:HTML */
+#prodeatils{
+  margin-top: 20px;
+display: flex;
+}
 
 #prodeatils .single-pro-image {
   width: 40%;
@@ -518,6 +522,21 @@ footer .copyright {
     flex-basis: 24%;
 
   }
+   .single-prodetails h6 , .single-prodetails h4 {
+  margin-bottom: 30px;
+
+  } 
+  .single-prodetails h2{
+    font-weight: 500;
+    font-size: 40px;
+  }
+  #size{
+margin: 10px;
+display: flex;
+padding: 8px;
+font-weight: 400;
+border-radius: 4px;
+}
 
 /* Media Query*/
 
