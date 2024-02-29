@@ -468,6 +468,23 @@ footer .copyright {
   width: 100%;
   text-align: center;
 }
+/* SHOP HTML*/
+#hero1{
+  background-image: url('img/banner/b1.jpg');
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+#hero1 h2 , #hero1 p{
+  color: white;
+ 
+}
+
 
 /* Media Query*/
 
