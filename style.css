@@ -544,6 +544,17 @@ padding: 40px 0 20px 0;
     height: 47px;
     padding-left: 10px;
     font-size: 16px;
+    margin-right: 10px;
+  }
+  #prodeatils .single-prodetails input:focus{
+    outline: none;
+  }
+  #prodeatils .single-prodetails button{
+    color:white;
+    background-color: #088178;
+  }
+  #prodeatils .single-prodetails span{
+    line-height: 25px;
   }
 
    /* .single-prodetails h6 , .single-prodetails h4 {
@@ -568,7 +579,7 @@ border-radius: 4px;
  width: 38px;
  height:38px;
  font-size: 14px;
-  */
+   
  border-radius: 4px;
  
 }
@@ -588,7 +599,7 @@ border-radius: 4px;
   font-size: 23px;
   margin: 18px 0 15px;
 
-}
+} */
 
 
 
