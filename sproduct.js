@@ -13,3 +13,6 @@ var mainimg = document.getElementById('mainimg');
         smallImg[3].onclick = function(){
             mainimg.src = smallImg[3].src;
         }
+
+
+        
