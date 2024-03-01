@@ -695,6 +695,19 @@ border-radius: 4px;
 #about-header abbr {
   font-weight: 600;
 }
+#about-app{
+  text-align: center;
+}
+
+#about-app h1{
+ padding-bottom: 30px;
+}
+#about-app video{
+  width: 70%;
+  height: 100%;
+  border-radius: 12px;
+ 
+}
 
 /* Media Query*/
 
