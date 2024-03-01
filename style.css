@@ -605,8 +605,6 @@ border-radius: 4px;
 }
 #blog {
   padding: 150px 150px 0 150px;
-  
-  
 }
 
 #blog .blog-box {
@@ -615,12 +613,10 @@ border-radius: 4px;
   width: 100%;
   position: relative;
   padding-bottom: 90px;
-  
 }
 #blog .blog-img {
   width: 50%;
   margin-right: 40px;
-  
 }
 
 #blog img {
@@ -630,48 +626,41 @@ border-radius: 4px;
   object-fit: cover;
 }
 
-
-#blog .blog-details{
-  width:50%;
- 
+#blog .blog-details {
+  width: 50%;
 }
 
 #blog .blog-details p {
   line-height: 25px;
   font-weight: 100%;
 }
-#blog .blog-details a{ 
+#blog .blog-details a {
   text-decoration: none;
- 
+
   color: #000;
   font-weight: 700;
   font-size: 11px;
   position: relative;
   transition: 0.2s ease;
-  
 }
-#blog .blog-details a::after{
-  content: ' ';
+#blog .blog-details a::after {
+  content: " ";
   background-color: #000;
   width: 50px;
   height: 2px;
   position: absolute;
   top: 4px;
   right: -70px;
-  
-
 }
 #blog .blog-details a:hover {
   color: #088178;
   cursor: pointer;
-
 }
-#blog .blog-details a:hover::after{
- 
+#blog .blog-details a:hover::after {
   background-color: #088178;
 }
 
-#blog .blog-box h1{
+#blog .blog-box h1 {
   position: absolute;
   top: -40px;
   left: 0;
@@ -679,41 +668,33 @@ border-radius: 4px;
   font-size: 70px;
   font-weight: 700;
   z-index: -9;
-
 }
 
 /* ABOUT PAGE */
-#hero1.about-header{
-  background-image: url('img/about/banner.png');
+#hero1.about-header {
+  background-image: url("img/about/banner.png");
 }
-#about-header img{
+#about-header img {
   width: 50%;
- 
-  
+
   object-fit: cover;
   padding-right: 40px;
-  
-  
 }
 #about-header {
   display: flex;
   align-items: center;
 }
 #about-header h2 {
-
   font-size: 40px;
   font-weight: 700;
 }
-#about-header p{
+#about-header p {
   line-height: 18px;
   font-weight: 450;
 }
-#about-header abbr{
+#about-header abbr {
   font-weight: 600;
 }
-
-
-
 
 /* Media Query*/
 
@@ -864,22 +845,20 @@ border-radius: 4px;
   }
   /* BLOG PAGE */
 
-
   #blog {
-    padding: 100px 20px 0 20px; 
+    padding: 100px 20px 0 20px;
   }
   #blog .blog-box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-   
-}
+  }
 
-#blog .blog-img {
-  width: 100%;
-  margin-bottom: 30px;
-}
-#blog .blog-details {
-  width: 100%;
-}
+  #blog .blog-img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #blog .blog-details {
+    width: 100%;
+  }
 }
