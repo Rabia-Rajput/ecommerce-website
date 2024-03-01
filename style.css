@@ -678,11 +678,14 @@ border-radius: 4px;
   width: 50%;
 
   object-fit: cover;
-  padding-right: 40px;
+ 
 }
 #about-header {
   display: flex;
   align-items: center;
+}
+#about-header div{
+  padding-left: 40px;
 }
 #about-header h2 {
   font-size: 40px;
@@ -874,4 +877,19 @@ border-radius: 4px;
   #blog .blog-details {
     width: 100%;
   }
+
+/* ABOUT PAGE */
+
+#about-header {
+  flex-direction: column;
+
+}
+#about-header img {
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+#about-header div{
+  padding-left: 0;
+}
 }
