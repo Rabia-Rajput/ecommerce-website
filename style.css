@@ -712,6 +712,15 @@ border-radius: 4px;
  
 }
 
+
+/* 
+CONTACT PAGE */
+
+
+#hero1 .contact-header{
+  background-image: url('img/banner/b7.jpg');
+}
+
 /* Media Query*/
 
 @media (max-width: 799px) {
