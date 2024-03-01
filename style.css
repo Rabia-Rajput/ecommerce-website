@@ -892,4 +892,7 @@ border-radius: 4px;
 #about-header div{
   padding-left: 0;
 }
+#about-app video{
+  width: 100%;
+}
 }
