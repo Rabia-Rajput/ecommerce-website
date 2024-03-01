@@ -686,7 +686,31 @@ border-radius: 4px;
 #hero1.about-header{
   background-image: url('img/about/banner.png');
 }
+#about-header img{
+  width: 50%;
+ 
+  
+  object-fit: cover;
+  padding-right: 40px;
+  
+  
+}
+#about-header {
+  display: flex;
+  align-items: center;
+}
+#about-header h2 {
 
+  font-size: 40px;
+  font-weight: 700;
+}
+#about-header p{
+  line-height: 18px;
+  font-weight: 450;
+}
+#about-header abbr{
+  font-weight: 600;
+}
 
 
 
