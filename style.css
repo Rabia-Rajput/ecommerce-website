@@ -767,7 +767,7 @@ font-size: 16px;
   flex-direction: column;
   width: 65%;
   align-items: flex-start;
-  margin-left:90px ;
+  
  
 }
 #form form span{
@@ -777,24 +777,17 @@ font-size: 16px;
   margin: 20px 0;
   font-size: 25px;
 }
-#form form input{
-  height: 40px;
-  width: 70%;
-  margin-bottom: 18px;
-}
-#form form input::placeholder{
-  padding: 12px;
+#form form input , #form form textarea{
   
+  width: 100%;
+ padding:12px 15px;
+ outline: none;
+ margin-bottom: 20px;
+ border: 1px solid #e1e1e1;
 }
-#form form textarea{
-  width: 70%;
-  height: 25vh;
-  
-}
-#form form textarea::placeholder{
-  padding: 12px;
-  
-}
+
+
+
 #form form button{
   background-color: #088178;
   color: white;
@@ -919,7 +912,19 @@ font-size: 12px;
   #newsletter .form {
     width: 70%;
   }
+  /* CONTACT PAGE */
+  #form{
+    padding: 20px;
+  }
+
+#form form {
+  
+  width: 50%;
+
 }
+
+}
+
 @media (max-width: 477px) {
   .section-p1 {
     padding: 20px;
@@ -1021,4 +1026,5 @@ font-size: 12px;
 #about-app video{
   width: 100%;
 }
+
 }
