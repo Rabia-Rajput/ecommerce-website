@@ -802,6 +802,37 @@ font-size: 16px;
   
 
 }
+#form {
+  display: flex;
+  
+ justify-content: space-between;
+ 
+}
+#people{
+  display: flex;
+  align-items: flex-start;
+  margin-right: 300px;
+}
+#form .people img{
+  width: 30%;
+  height: auto;
+
+}
+#form .people h3{
+  font-size: 14px;
+  margin: 10px 8px 0 8px;
+  font-weight: 550;
+}
+#form #people{
+  padding-bottom: 25px;
+}
+#form #people p{
+ 
+  width: 200%;
+  margin: 10px 8px 6px 8px;
+font-size: 12px;
+  
+}
 
 /* Media Query*/
 
