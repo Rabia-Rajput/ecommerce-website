@@ -807,11 +807,14 @@ font-size: 16px;
   
  justify-content: space-between;
  border: 1px solid #e1e1e1;
+ margin: 30px;
+ padding: 60px;
+
 }
 #form #people{
   display: flex;
   align-items: flex-start;
-  margin-right: 300px;
+  margin-right: 180px;
   padding-bottom: 25px;
 }
 #form .people img{
