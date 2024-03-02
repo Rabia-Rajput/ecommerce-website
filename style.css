@@ -791,7 +791,7 @@ font-size: 16px;
 #form form button{
   background-color: #088178;
   color: white;
-  margin: 12px 3px;
+  
   
 
 }
@@ -801,32 +801,33 @@ font-size: 16px;
  justify-content: space-between;
  border: 1px solid #e1e1e1;
  margin: 30px;
- padding: 60px;
+ padding: 80px;
 
 }
 #form #people{
   display: flex;
   align-items: flex-start;
-  margin-right: 180px;
+ 
   padding-bottom: 25px;
 }
 #form .people img{
   width: 65px;
   height: 65px;
   object-fit: cover;
+  margin-right: 15px;
 
 }
 #form .people h3{
   font-size: 16px;
-  margin: 10px 8px 0 8px;
+  display: block;
   font-weight: 600;
   color: #000;
 }
 
 #form #people p{
  
-  width: 200%;
-  margin: 10px 8px 6px 8px;
+  line-height: 25px;
+  margin:0;
 font-size: 12px;
   
 }
@@ -914,7 +915,7 @@ font-size: 12px;
   }
   /* CONTACT PAGE */
   #form{
-    padding: 20px;
+    padding: 40px;
   }
 
 #form form {
