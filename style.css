@@ -806,12 +806,13 @@ font-size: 16px;
   display: flex;
   
  justify-content: space-between;
- 
+ border: 1px solid #e1e1e1;
 }
-#people{
+#form #people{
   display: flex;
   align-items: flex-start;
   margin-right: 300px;
+  padding-bottom: 25px;
 }
 #form .people img{
   width: 65px;
@@ -825,9 +826,7 @@ font-size: 16px;
   font-weight: 600;
   color: #000;
 }
-#form #people{
-  padding-bottom: 25px;
-}
+
 #form #people p{
  
   width: 200%;
