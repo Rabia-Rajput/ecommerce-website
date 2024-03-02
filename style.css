@@ -820,9 +820,10 @@ font-size: 16px;
 
 }
 #form .people h3{
-  font-size: 14px;
+  font-size: 16px;
   margin: 10px 8px 0 8px;
-  font-weight: 550;
+  font-weight: 600;
+  color: #000;
 }
 #form #people{
   padding-bottom: 25px;
