@@ -678,13 +678,12 @@ border-radius: 4px;
   width: 50%;
 
   object-fit: cover;
- 
 }
 #about-header {
   display: flex;
   align-items: center;
 }
-#about-header div{
+#about-header div {
   padding-left: 40px;
 }
 #about-header h2 {
@@ -698,138 +697,121 @@ border-radius: 4px;
 #about-header abbr {
   font-weight: 600;
 }
-#about-app{
+#about-app {
   text-align: center;
 }
 
-#about-app h1{
- padding-bottom: 30px;
+#about-app h1 {
+  padding-bottom: 30px;
 }
-#about-app video{
+#about-app video {
   width: 60%;
   height: 100%;
   border-radius: 12px;
- 
 }
-
 
 /* 
 CONTACT PAGE */
 
-
-#hero1 .contact-header{
-  background-image: url('img/banner/b7.jpg');
+#hero1 .contact-header {
+  background-image: url("img/banner/b7.jpg");
 }
-#contact-details{
+#contact-details {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-#contact-details .details{
-
-width: 50%;
+#contact-details .details {
+  width: 50%;
 }
-#contact-details .details span{
+#contact-details .details span {
   font-size: 15px;
 }
 
-#contact-details .details h2{
- line-height: 35px;
+#contact-details .details h2 {
+  line-height: 35px;
   font-size: 26px;
-  padding: 20px 0 ;
+  padding: 20px 0;
 }
-#contact-details .details h3{
-padding-bottom: 15px;
-font-size: 16px;
+#contact-details .details h3 {
+  padding-bottom: 15px;
+  font-size: 16px;
 }
-#contact-details li{
- display: flex;
- align-items: baseline;
- list-style: none;
-
+#contact-details li {
+  display: flex;
+  align-items: baseline;
+  list-style: none;
 }
-#contact-details li p{
+#contact-details li p {
   padding-left: 16px;
 }
-#contact-details .map{
+#contact-details .map {
   width: 55%;
   height: 400px;
 }
 
-#contact-details .map iframe{
+#contact-details .map iframe {
   width: 100%;
   height: 100%;
 }
 
- 
-#form form{
+#form form {
   display: flex;
   flex-direction: column;
   width: 65%;
   align-items: flex-start;
-  
- 
 }
-#form form span{
+#form form span {
   font-size: 14px;
 }
-#form form h2{
+#form form h2 {
   margin: 20px 0;
   font-size: 25px;
 }
-#form form input , #form form textarea{
-  
+#form form input,
+#form form textarea {
   width: 100%;
- padding:12px 15px;
- outline: none;
- margin-bottom: 20px;
- border: 1px solid #e1e1e1;
+  padding: 12px 15px;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
 }
 
-
-
-#form form button{
+#form form button {
   background-color: #088178;
   color: white;
-  
-  
-
 }
 #form {
   display: flex;
-  
- justify-content: space-between;
- border: 1px solid #e1e1e1;
- margin: 30px;
- padding: 80px;
 
+  justify-content: space-between;
+  border: 1px solid #e1e1e1;
+  margin: 30px;
+  padding: 80px;
 }
-#form #people{
+#form #people {
   display: flex;
   align-items: flex-start;
- 
+
   padding-bottom: 25px;
 }
-#form .people img{
+#form .people img {
   width: 65px;
   height: 65px;
   object-fit: cover;
   margin-right: 15px;
-
 }
-#form .people h3{
+#form .people h3 {
   font-size: 16px;
   display: block;
   font-weight: 600;
   color: #000;
 }
 
-#form #people p{
- 
+#form #people p {
   line-height: 25px;
-  margin:0;
-font-size: 12px;
-  
+  margin: 0;
+  font-size: 12px;
 }
 
 /* Media Query*/
@@ -914,16 +896,13 @@ font-size: 12px;
     width: 70%;
   }
   /* CONTACT PAGE */
-  #form{
+  #form {
     padding: 40px;
   }
 
-#form form {
-  
-  width: 50%;
-
-}
-
+  #form form {
+    width: 50%;
+  }
 }
 
 @media (max-width: 477px) {
@@ -1010,32 +989,27 @@ font-size: 12px;
     width: 100%;
   }
 
-/* ABOUT PAGE */
+  /* ABOUT PAGE */
 
-#about-header {
-  flex-direction: column;
-
-}
-#about-header img {
-  width: 100%;
-  margin-bottom: 20px;
-  
-}
-#about-header div{
-  padding-left: 0;
-}
-#about-app video{
-  width: 100%;
-}
-/* CONTACT PAGE */
-#contact-details {
- 
-  flex-direction: column;
-  
-}
-#contact-details .details {
-  width: 100%;
-  margin-bottom: 30px;
-
-
+  #about-header {
+    flex-direction: column;
+  }
+  #about-header img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #about-header div {
+    padding-left: 0;
+  }
+  #about-app video {
+    width: 100%;
+  }
+  /* CONTACT PAGE */
+  #contact-details {
+    flex-direction: column;
+  }
+  #contact-details .details {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
