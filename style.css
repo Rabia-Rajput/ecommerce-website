@@ -1027,5 +1027,15 @@ font-size: 12px;
 #about-app video{
   width: 100%;
 }
+/* CONTACT PAGE */
+#contact-details {
+ 
+  flex-direction: column;
+  
+}
+#contact-details .details {
+  width: 100%;
+  margin-bottom: 30px;
+
 
 }
