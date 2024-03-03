@@ -814,7 +814,7 @@ CONTACT PAGE */
   font-size: 12px;
 }
 /* CART PAGE */
-#cart{
+#cart {
   overflow-x: auto;
 }
 #cart table {
@@ -825,7 +825,6 @@ CONTACT PAGE */
 }
 #cart table img {
   width: 70px;
-  
 }
 #cart table td:nth-child(1) {
   width: 100px;
@@ -845,29 +844,28 @@ CONTACT PAGE */
   width: 150px;
   text-align: center;
 }
-#cart table td:nth-child(5) input{
+#cart table td:nth-child(5) input {
   width: 70px;
   padding: 10px 5px 10px 15px;
 }
-#cart table thead{
+#cart table thead {
   border: 1px solid #e2e9e1;
   border-left: none;
   border-right: none;
 }
-#cart table thead td{
+#cart table thead td {
   font-weight: 700;
   font-size: 13px;
   padding: 18px 0;
   text-transform: uppercase;
-
 }
 #cart table tbody tr td {
-   padding-top: 15px;
+  padding-top: 15px;
 }
-#cart table tbody td{
+#cart table tbody td {
   font-size: 13px;
 }
-#cart-add{
+#cart-add {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -875,26 +873,24 @@ CONTACT PAGE */
 #coupon {
   width: 50%;
   margin-bottom: 30px;
-
 }
-#coupon h3{
+#coupon h3 {
   font-size: 16px;
   padding-bottom: 15px;
 }
-#coupon input{
+#coupon input {
   padding: 10px 20px;
   width: 60%;
   outline: none;
   margin-right: 10px;
   border: 1px solid #e2e9e1;
- 
 }
-#coupon button{
+#coupon button {
   background-color: #088178;
   color: #e2e9e1;
-  padding:  12px 20px;
+  padding: 12px 20px;
 }
-#subtotal{
+#subtotal {
   width: 50%;
   margin-bottom: 30px;
   border: 1px solid #e2e9e1;
@@ -903,28 +899,23 @@ CONTACT PAGE */
 #subtotal h3 {
   font-size: 16px;
   padding-bottom: 15px;
-  
 }
-#subtotal table{
+#subtotal table {
   width: 100%;
   border-collapse: collapse;
- 
 }
-#subtotal table tr td{
+#subtotal table tr td {
   border: 1px solid #e2e9e1;
   padding: 10px;
   font-size: 13px;
   width: 50%;
- 
 }
-#subtotal button{
+#subtotal button {
   color: #e2e9e1;
   background-color: #088178;
   margin-top: 12px;
   padding: 10px 12px;
 }
-
-
 
 /* Media Query*/
 
@@ -1015,11 +1006,6 @@ CONTACT PAGE */
   #form form {
     width: 50%;
   }
-
-
-
-
-
 }
 
 @media (max-width: 477px) {
@@ -1143,17 +1129,16 @@ CONTACT PAGE */
     margin-bottom: 30px;
   }
 
-
   /* CART-PAGE */
 
   #cart-add {
-   flex-direction: column;
-}
-#coupon {
-  width: 100%;
-}
-#subtotal{
-  padding: 20px;
-  width: 100%;
-}
+    flex-direction: column;
+  }
+  #coupon {
+    width: 100%;
+  }
+  #subtotal {
+    padding: 20px;
+    width: 100%;
+  }
 }
