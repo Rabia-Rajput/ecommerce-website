@@ -902,7 +902,12 @@ CONTACT PAGE */
   padding-bottom: 15px;
   
 }
-
+#subtotal table{
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+}
 
 
 /* Media Query*/
