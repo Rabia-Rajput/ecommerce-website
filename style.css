@@ -814,6 +814,9 @@ CONTACT PAGE */
   font-size: 12px;
 }
 /* CART PAGE */
+#cart{
+  overflow-x: auto;
+}
 #cart table {
   width: 100%;
   border-collapse: collapse;
@@ -1012,6 +1015,11 @@ CONTACT PAGE */
   #form form {
     width: 50%;
   }
+
+
+
+
+
 }
 
 @media (max-width: 477px) {
@@ -1134,4 +1142,12 @@ CONTACT PAGE */
 
     margin-bottom: 30px;
   }
+
+
+  /* CART-PAGE */
+
+  #cart-add {
+   flex-direction: column;
+}
+
 }
