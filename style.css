@@ -864,6 +864,46 @@ CONTACT PAGE */
 #cart table tbody td{
   font-size: 13px;
 }
+#cart-add{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#coupon {
+  width: 50%;
+  margin-bottom: 30px;
+
+}
+#coupon h3{
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+#coupon input{
+  padding: 10px 20px;
+  width: 60%;
+  outline: none;
+  margin-right: 10px;
+  border: 1px solid #e2e9e1;
+ 
+}
+#coupon button{
+  background-color: #088178;
+  color: #e2e9e1;
+  padding:  12px 20px;
+}
+#subtotal{
+  width: 50%;
+  margin-bottom: 30px;
+  border: 1px solid #e2e9e1;
+  padding: 30px;
+}
+#subtotal h3 {
+  font-size: 16px;
+  padding-bottom: 15px;
+  
+}
+
+
 
 /* Media Query*/
 
