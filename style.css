@@ -822,6 +822,7 @@ CONTACT PAGE */
 }
 #cart table img {
   width: 70px;
+  
 }
 #cart table td:nth-child(1) {
   width: 100px;
@@ -856,6 +857,12 @@ CONTACT PAGE */
   padding: 18px 0;
   text-transform: uppercase;
 
+}
+#cart table tbody tr td {
+   padding-top: 15px;
+}
+#cart table tbody td{
+  font-size: 13px;
 }
 
 /* Media Query*/
