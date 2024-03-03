@@ -905,9 +905,21 @@ CONTACT PAGE */
 #subtotal table{
   width: 100%;
   border-collapse: collapse;
-  table-layout: fixed;
-  white-space: nowrap;
+ 
 }
+#subtotal table tr td{
+  border: 1px solid #e2e9e1;
+  padding: 10px;
+  font-size: 13px;
+  width: 50%;
+ 
+}
+#subtotal button{
+  color: #e2e9e1;
+  background-color: #088178;
+  margin-top: 12px;
+}
+
 
 
 /* Media Query*/
